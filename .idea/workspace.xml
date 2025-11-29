@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f428bff-2d62-4524-8d51-7e459cb4192c" name="Changes" comment="Инициализация проекта, добавлен Main класс">
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/nexus/input/AudioInputManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/nexus/output/AudioOutputManager.java" afterDir="false" />
+    <list default="true" id="1f428bff-2d62-4524-8d51-7e459cb4192c" name="Changes" comment="еще изменения">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/nexus/core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/nexus/core/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/nexus/demo/AudioOutputDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/nexus/demo/AudioOutputDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/nexus/demo/AudioTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/nexus/demo/AudioTestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/nexus/input/AudioInputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/nexus/audio/AudioInputManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/nexus/output/AudioOutputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/nexus/audio/AudioOutputManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +31,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -67,6 +71,7 @@
     "Application.AudioRecordAndPlayDemo.executor": "Run",
     "Application.AudioRecordToFile.executor": "Run",
     "Application.AudioTestDemo.executor": "Run",
+    "Application.Main.executor": "Run",
     "Maven. [clean].executor": "Run",
     "Maven.nexus [clean].executor": "Run",
     "Maven.nexus [compile].executor": "Run",
@@ -98,20 +103,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.AudioTestDemo">
-    <configuration name="AudioOutputDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.nexus.demo.AudioOutputDemo" />
-      <module name="nexus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.nexus.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AudioPlayFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.nexus.demo.AudioPlayFromFile" />
       <module name="nexus" />
@@ -164,13 +156,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.nexus.core.Main" />
+      <module name="nexus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nexus.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.AudioTestDemo" />
         <item itemvalue="Application.AudioPlayFromFile" />
         <item itemvalue="Application.AudioRecordToFile" />
         <item itemvalue="Application.AudioRecordAndPlayDemo" />
-        <item itemvalue="Application.AudioOutputDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -214,12 +219,40 @@
       <option name="project" value="LOCAL" />
       <updated>1764437335802</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="еще изменения">
+      <option name="closed" value="true" />
+      <created>1764437920068</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764437920068</updated>
+    </task>
+    <task id="LOCAL-00006" summary="еще изменения">
+      <option name="closed" value="true" />
+      <created>1764438084569</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764438084569</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Инициализация проекта, добавлен Main класс" />
-    <option name="LAST_COMMIT_MESSAGE" value="Инициализация проекта, добавлен Main класс" />
+    <MESSAGE value="еще изменения" />
+    <option name="LAST_COMMIT_MESSAGE" value="еще изменения" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
