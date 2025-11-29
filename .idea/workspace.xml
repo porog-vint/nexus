@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f428bff-2d62-4524-8d51-7e459cb4192c" name="Changes" comment="Инициализация проекта, добавлен Main класс">
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/nexus/input/AudioInputManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/nexus/output/AudioOutputManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="il141 &lt;il141962@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -34,30 +41,139 @@
     "accountId": "40303b19-aff6-47d9-a255-60ff24664fe6"
   }
 }]]></component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="368aUrQIEWUhZf4fOuSpngucoBt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AudioInputDemo.executor": "Run",
+    "Application.AudioOutputDemo.executor": "Run",
+    "Application.AudioPlayFromFile.executor": "Run",
+    "Application.AudioRecordAndPlayDemo.executor": "Run",
+    "Application.AudioRecordToFile.executor": "Run",
+    "Application.AudioTestDemo.executor": "Run",
+    "Maven. [clean].executor": "Run",
     "Maven.nexus [clean].executor": "Run",
     "Maven.nexus [compile].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/il141/IdeaProjects/nexus/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle Tasks" flag="true" />
+      <visibility group="Maven Goals" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="com.intellij.ide.actions.runAnything.RunAnythingRunConfigurationProvider" flag="true" />
+      <visibility group="com.intellij.ide.actions.runAnything.activity.RunAnythingRecentProjectProvider" flag="true" />
+      <visibility group="org.jetbrains.idea.maven.execution.MavenRunAnythingProvider" flag="true" />
+      <visibility group="org.jetbrains.plugins.gradle.execution.GradleRunAnythingProvider" flag="true" />
+    </myKeys>
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AudioTestDemo">
+    <configuration name="AudioOutputDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.nexus.demo.AudioOutputDemo" />
+      <module name="nexus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nexus.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AudioPlayFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.nexus.demo.AudioPlayFromFile" />
+      <module name="nexus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nexus.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AudioRecordAndPlayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.nexus.demo.AudioRecordAndPlayDemo" />
+      <module name="nexus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nexus.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AudioRecordToFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.nexus.demo.AudioRecordToFile" />
+      <module name="nexus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nexus.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AudioTestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.nexus.demo.AudioTestDemo" />
+      <module name="nexus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nexus.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AudioTestDemo" />
+        <item itemvalue="Application.AudioPlayFromFile" />
+        <item itemvalue="Application.AudioRecordToFile" />
+        <item itemvalue="Application.AudioRecordAndPlayDemo" />
+        <item itemvalue="Application.AudioOutputDemo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1f428bff-2d62-4524-8d51-7e459cb4192c" name="Changes" comment="" />
@@ -74,11 +190,47 @@
       <option name="project" value="LOCAL" />
       <updated>1764394842442</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Инициализация проекта, добавлен Main класс">
+      <option name="closed" value="true" />
+      <created>1764395596048</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764395596048</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Инициализация проекта, добавлен Main класс">
+      <option name="closed" value="true" />
+      <created>1764437061831</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764437061831</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Инициализация проекта, добавлен Main класс">
+      <option name="closed" value="true" />
+      <created>1764437335802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764437335802</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Инициализация проекта, добавлен Main класс" />
     <option name="LAST_COMMIT_MESSAGE" value="Инициализация проекта, добавлен Main класс" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/at/nexus/demo/AudioInputDemo.java</url>
+          <line>13</line>
+          <properties field="SAMPLE_RATE" class="at.nexus.demo.AudioInputDemo" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
